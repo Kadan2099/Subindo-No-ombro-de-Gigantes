@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segundo passo</title>
+</head>
+<body>
+    <h1>Um pouco mais sobre Tags</h1>
+    <h2>Tipo de Documento (Doctypes)</h2>
+    <p>Doctype, ou em português "tipo de documento", ajuda o navegador a entender qual é a versão do HTML utilizada, permitindo uma interpretação mais precisa da página. Isso é importante para garantir a correta renderização do site e pode influenciar na forma como ele é indexado por buscadores como o Google.</p>
+    <p>As declarações sobre o tipo de documento não são tags do html e pertencem ao topo do documento. Nesta parte declara a estrutura e declaração de vários tipos de documentos em HTML.</p>
+
+    <h3>&lt;!DOCTYPE html&gt</h3>
+    <p>A declaração &lt;!DOCTYPE html&gt deve sempre ser incluída no topo do documento HTML antes da tag &lt;html&gt isso apartir do HTML5 se quiser pode pesquisar a fundo sobre as diferentes versões do HTML tenha em mente que a versão html 5 é a atualmente utilizada desde 2014, se quiser mais detalhes fique a vontade para pesquisar ou perguntar no perfil em que este trabalho estiver publicado.</p>
+
+    <p>As tags em HTML são case-insentive isso significa que indendente de escrever nas diferenças abaixo, todas são válidas:<br>
+    <code>
+        &lt;doctype html&gt;<br>
+        &lt;dOCtyPe html&gt;<br>
+        &lt;DocTYpe html&gt;<br>
+    </code>
+
+    </p>
+    <h2>Títulos e Sub-títulos</h2>
+    <p> Há 6 tipos de tags que são consideradas "Títulos" em HTML sendo que:
+        <ul>
+            <li>&lt;h1&gt;Heading 1&lt;/h1&gt; é o título mais importante</li>
+            <li>&lt;h6&gt;Heading 1&lt;/h1&gt; é o título menos importante</li>
+        </ul>
+    <br>  
+    <code>
+        &lt;h1&gt;Heading 1&lt;/h1&gt;<br>
+        &lt;h2&gt;Heading 2&lt;/h2&gt;<br>
+        &lt;h3&gt;Heading 3&lt;/h3&gt;<br>
+        &lt;h4&gt;Heading 4&lt;/h4&gt;<br>
+        &lt;h5&gt;Heading 5&lt;/h5&gt;<br>
+        &lt;h6&gt;Heading 6&lt;/h6&gt;<br>
+    </code>
+    </p>
+    <p>
+        Sistemas de busca normalmente indexam páginas baseadas no conteúdo de seus títulos, para criar um site mais semantico para os navegadores é importante levar em consideração a estrutura dos títulos. <br>
+        Em geral um documento deve ter apenas um h1 como o título principal tendo seus sub-títulos descendo na hierarquia conforme o número:
+        &lt;h1&gt;Título principal&lt;/h1&gt;<br>
+        &lt;h2&gt;Sub-título 2&lt;/h2&gt;<br>
+        E assim por diante, se queiser entender isso melhor caso não pareça visível isso veja o código fonte desta página e vai entender um pouco melhor isso.
+    </p>
+
+</body>
