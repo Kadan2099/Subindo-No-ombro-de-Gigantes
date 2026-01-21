@@ -10,10 +10,52 @@
     <p>Aqui vamos ter que voltar uns passos atrás e deixar claro o que se fala sobre o que são parâmetros dentro de tags.</p>
     <h2>Parâmetros</h2>
     <p>Desde que inciamos, apenas uma vez usamos parâmetros dentro de tags, então eis a explicação;<br>
-    Também conhecidos como atributos, parâmetros são palavras especiais que podem mudar o comportamento seguindo a estrutura &lt; tag_alvo nome = "Valor"&gt, existe varios tipos dos mais variados comportamentos para esses atributos, não se preocupe vamos explorar conforme avançamos.<br>
+    Também conhecidos como atributos, parâmetros são palavras especiais que podem mudar o comportamento seguindo a estrutura &lt; tag nome = "Valor"&gt, existe varios tipos dos mais variados comportamentos para esses atributos, não se preocupe vamos explorar conforme avançamos.<br>
     Abaixo vamos intruduzir algumas.
 
     </p>
     <h2>Exemplo prático Âncora</h2>
-    <p></p>
+    <p>Ancoras e links utilizam a tag &lt;a&gt para representar suas referencias.<br>
+    Gosto da ideia de considerar que tanto links quanto ancoras são do mesmo tipo considerando que de fato o são no quesito tag.
+    <br>
+    Como dito parametros tem a sintaxe &lt; tag nome_do_parametro = "Valor"&gt  com a tag &lt;a&gt podemos utilizar os seguintes parametros .
+    <ul>
+        <li>href</li>
+        <li></li>
+    </ul>
+
+    <br>
+    <br>
+href
+Details
+Specifies the destination address. It can be an absolute or relative URL, or the 
+name of an anchor. An
+absolute URL is the complete URL of a website like http://example.com/. A relative URL points to
+another directory and/or document inside the same website, e.g. 
+/about-us/ points to the directory
+“about-us” inside the root directory (/). When pointing to another directory without explicitly specifying
+the document, web servers typically return the document “index.html” inside that directory.
+hreflang Specifies the language of the resource linked by the 
+href attribute (which must be present with this
+one). Use language values from BCP 47 for HTML5 and RFC 1766 for HTML 4.
+rel
+target
+Specifies the relationship between the current document and the linked document. For HTML5, the
+values must be defined in the specification or registered in the Microformats wiki.
+Specifies where to open the link, e.g. in a new tab or window. Possible values are 
+_blank, 
+_parent, 
+_top, and 
+_self,
+framename (deprecated). Forcing such behaviour is not recommended since it
+violates the control of the user over a website.
+title
+download
+Specifies extra information about a link. The information is most often shown as a tooltip text when
+the cursor moves over the link. This attribute is not restricted to links, it can be used on almost all
+HTML tags.
+Specifies that the target will be downloaded when a user clicks on the hyperlink. The value of the
+attribute will be the name of the downloaded file. There are no restrictions on allowed values, and the
+browser will automatically detect the correct file extension and add it to the file (.img, .pdf, etc.). If the
+value is omitted, the original filename is used.</p>
 </body>
