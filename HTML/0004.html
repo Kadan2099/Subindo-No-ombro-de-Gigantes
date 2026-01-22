@@ -20,37 +20,16 @@
     <br>
     Como dito parametros tem a sintaxe &lt; tag nome_do_parametro = "Valor"&gt  com a tag &lt;a&gt podemos utilizar os seguintes parametros .
     <ul>
-        <li>href; usado para especificar o endereço para qual irá direcionar podendo ser um link <abbr title="um link que direciona independente de onde o arquivo atual está como um exemplo http://example.com/">absoluto</abbr> ou <abbr title="que direciona a partir de onde arquivo aberto está">relativo</abbr></li>
+        <li>href; usado para especificar o endereço para qual irá direcionar podendo ser um link <abbr title="um link que direciona independente de onde o arquivo atual está como um exemplo http://example.com/">absoluto</abbr> ou <abbr title="que direciona a partir de onde arquivo aberto está">relativo</abbr>.</li>
         <li>target; especifica onde se pode abrir o link podendo assumir os valores 
         <ul>
-            <li>_blank abre o conteudo em uma nova <strong>ATENÇÃO</strong> ao utilizar essa tag utilize junto rel="noopener noreferrer" por segurança <a href="https://docs.datadoghq.com/security/code_security/static_analysis/static_analysis_rules/jsx-react/jsx-no-target-blank/" rel="noopener noreferrer">Veja esse Artigo</a> </li>
-            <li>_parent abre o link no frame pai do atual (em breve estudaremos sobre frames)</li>
-            <li>_top</li>
-            <li>_self</li>
+            <li>_blank abre o conteudo em uma nova <strong>ATENÇÃO</strong> ao utilizar essa tag utilize junto rel="noopener noreferrer" por segurança <a href="https://docs.datadoghq.com/security/code_security/static_analysis/static_analysis_rules/jsx-react/jsx-no-target-blank/" rel="noopener noreferrer">Veja esse Artigo</a>.</li>
+            <li>_parent abre o link no frame pai do atual (em breve estudaremos sobre frames).</li>
+            <li>_top abre o link no nível mais alto da janela, removendo todos os frames.</li>
+            <li>_self abre o link no mesmo local onde o usuário está.</li>
         </ul></li>
+        <li>title; da informações extras sobre um link, podendo exibir <a title="O que será que aparece">o mesmo que aparece quando se passa o mouse por cima igual o exemplo do href, inclusive esse tipo de parametro pode ser usado em várias tags diferentes.</a></li>
+        <li>download; diz ao navegador que o alvo será baixado o valor download="titulo" delimita o nome do arquivo baixado o navegador detectará automaticamente a extensão correta do arquivo e a adicionará ao nome (.img, .pdf, etc.). Se o valor for omitido, o nome original do arquivo será usado.</li>
     </ul>
-
-    <br>
-    <br>
-
-target
-Specifies the relationship between the current document and the linked document. For HTML5, the
-values must be defined in the specification or registered in the Microformats wiki.
-Specifies where to open the link, e.g. in a new tab or window. Possible values are 
-, 
-, 
-, and 
-,
-framename (deprecated). Forcing such behaviour is not recommended since it
-violates the control of the user over a website.
-title
-download
-Specifies extra information about a link. The information is most often shown as a tooltip text when
-the cursor moves over the link. This attribute is not restricted to links, it can be used on almost all
-HTML tags.
-Specifies that the target will be downloaded when a user clicks on the hyperlink. The value of the
-attribute will be the name of the downloaded file. There are no restrictions on allowed values, and the
-browser will automatically detect the correct file extension and add it to the file (.img, .pdf, etc.). If the
-value is omitted, the original filename is used.</p>
     
 </body>
