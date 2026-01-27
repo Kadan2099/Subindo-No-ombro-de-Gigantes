@@ -7,14 +7,18 @@
 </head>
 <body>
     <h1>Âncoras e Hiperlinks</h1>
+
     <p>Aqui vamos ter que voltar uns passos atrás e deixar claro o que se fala sobre o que são parâmetros dentro de tags.</p>
-    <h2>Parâmetros</h2>
-    <p>Desde que inciamos, apenas uma vez usamos parâmetros dentro de tags, então eis a explicação;<br>
+    <h2 id="Parâmetros">Parâmetros</h2>
+    <p>Desde que iniciamos, apenas uma vez usamos parâmetros dentro de tags, então eis o que é;<br>
     Também conhecidos como atributos, parâmetros são palavras especiais que podem mudar o comportamento seguindo a estrutura &lt; tag nome = "Valor"&gt, existe varios tipos dos mais variados comportamentos para esses atributos, não se preocupe vamos explorar conforme avançamos.<br>
     Abaixo vamos intruduzir algumas.
 
     </p>
-    <h2>Exemplo prático:</h2>
+
+
+    <h2 id="Exemplo">Exemplo prático:</h2>
+
     <p>Ancoras e links utilizam a tag &lt;a&gt para representar suas referencias.<br>
     Gosto da ideia de considerar que tanto links quanto ancoras são do mesmo tipo considerando que de fato o são no quesito tag.
     <br>
@@ -32,7 +36,44 @@
         <li>download; diz ao navegador que o alvo será baixado o valor download="titulo" delimita o nome do arquivo baixado o navegador detectará automaticamente a extensão correta do arquivo e a adicionará ao nome (.img, .pdf, etc.). Se o valor for omitido, o nome original do arquivo será usado.</li>
     </ul>
     <p>
-        Aqui preciso ser sincero, link é não apenas um "link" para outro site, na verdade link é um elo e/ou ligação a outro lugar podendo ser uma nova página ou algo dentro da própria página. 
+        Aqui preciso ser sincero, link é não apenas um "link" para outro site, na verdade link é um elo e/ou ligação a outro lugar podendo ser uma nova página ou algo dentro da própria página. Vamos exemplificar;
+    </p>
+
+
+    <h2 id="Link_para_site">Link para outro site</h2>
+
+    <p>O uso básico da tag &lt;a&gt; para sites se encontra aqui:<br> &lt;a href ="http://nerds_never_die.com/"&gt; Link para o site dos nerds &lt;a&gt; <br>
+    Nesse formato podemos usar até mesmo para outros tipos de <a href="https://pt.wikipedia.org/wiki/Lista_de_protocolos_de_redes">protocolo além do https</a>.
     </p>
     
+
+    <h2 id="Link_para_ancora">Link para uma ancora</h2>
+
+    <p>Como dito a tag a (dica para fixar a vem de <strong>a</strong>ncora) pode também ser usada para se ligar a ancora na mesma página exemplos; <br>
+    Nesse site mesmo temos dois tópicos em que já podemos usar as ancoras, para isso e relembrando sobre parametros temos um nos títulos <a href='#Link_para_site'>Link para outro site</a> e para <a href='#Link_para_ancora'>Link para uma ancora</a> se clicarmos em qualquer um desses que inclui aparentemente não aconteceu nada então vamos deixar a parte abaixo cheia de lorem ipsum para mostrar melhor clique <a href='#SALTO'>aqui</a> para pular o texto.
+    </p>
+
+    <h2 id="ipsum 1">Lorem, ipsum 1</h2>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt maiores delectus odit laborum labore. Optio dolore adipisci, accusantium ex ullam possimus temporibus recusandae nam, quasi, officia dolores. Incidunt, iure repudiandae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius est illum vel, labore sint itaque quas soluta debitis facere qui tenetur impedit consequuntur architecto tempora optio vero distinctio. Modi, ex. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores illo maxime ea repudiandae, dignissimos beatae ad aspernatur officiis eum nam eaque perferendis atque saepe ut quas. Perspiciatis fugit odit voluptas.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt maiores delectus odit laborum labore. Optio dolore adipisci, accusantium ex ullam possimus temporibus recusandae nam, quasi, officia dolores. Incidunt, iure repudiandae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius est illum vel, labore sint itaque quas soluta debitis facere qui tenetur impedit consequuntur architecto tempora optio vero distinctio. Modi, ex. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores illo maxime ea repudiandae, dignissimos beatae ad aspernatur officiis eum nam eaque perferendis atque saepe ut quas. Perspiciatis fugit odit voluptasLorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt maiores delectus odit laborum labore. Optio dolore adipisci, accusantium ex ullam possimus temporibus recusandae nam, quasi, officia dolores. Incidunt, iure repudiandae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius est illum vel, labore sint itaque quas soluta debitis facere qui tenetur impedit consequuntur architecto tempora optio vero distinctio. Modi, ex. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores illo maxime ea repudiandae, dignissimos beatae ad aspernatur officiis eum nam eaque perferendis atque saepe ut quas. Perspiciatis fugit odit voluptasLorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt maiores delectus odit laborum labore. Optio dolore adipisci, accusantium ex ullam possimus temporibus recusandae nam, quasi, officia dolores. Incidunt, iure repudiandae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius est illum vel, labore sint itaque quas soluta debitis facere qui tenetur impedit consequuntur architecto tempora optio vero distinctio. Modi, ex. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores illo maxime ea repudiandae, dignissimos beatae ad aspernatur officiis eum nam eaque perferendis atque saepe ut quas. Perspiciatis fugit odit voluptas.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt maiores delectus odit laborum labore. Optio dolore adipisci, accusantium ex ullam possimus temporibus recusandae nam, quasi, officia dolores. Incidunt, iure repudiandae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius est illum vel, labore sint itaque quas soluta debitis facere qui tenetur impedit consequuntur architecto tempora optio vero distinctio. Modi, ex. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores illo maxime ea repudiandae, dignissimos beatae ad aspernatur officiis eum nam eaque perferendis atque saepe ut quas. Perspiciatis fugit odit voluptasLorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt maiores delectus odit laborum labore. Optio dolore adipisci, accusantium ex ullam possimus temporibus recusandae nam, quasi, officia dolores. Incidunt, iure repudiandae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius est illum vel, labore sint itaque quas soluta debitis facere qui tenetur impedit consequuntur architecto tempora optio vero distinctio. Modi, ex. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores illo maxime ea repudiandae, dignissimos beatae ad aspernatur officiis eum nam eaque perferendis atque saepe ut quas. Perspiciatis fugit odit voluptas</p>
+
+
+    <h2 id="ipsum 2">Lorem, ipsum 2</h2>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt maiores delectus odit laborum labore. Optio dolore adipisci, accusantium ex ullam possimus temporibus recusandae nam, quasi, officia dolores. Incidunt, iure repudiandae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius est illum vel, labore sint itaque quas soluta debitis facere qui tenetur impedit consequuntur architecto tempora optio vero distinctio. Modi, ex. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores illo maxime ea repudiandae, dignissimos beatae ad aspernatur officiis eum nam eaque perferendis atque saepe ut quas. Perspiciatis fugit odit voluptas.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt maiores delectus odit laborum labore. Optio dolore adipisci, accusantium ex ullam possimus temporibus recusandae nam, quasi, officia dolores. Incidunt, iure repudiandae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius est illum vel, labore sint itaque quas soluta debitis facere qui tenetur impedit consequuntur architecto tempora optio vero distinctio. Modi, ex. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores illo maxime ea repudiandae, dignissimos beatae ad aspernatur officiis eum nam eaque perferendis atque saepe ut quas. Perspiciatis fugit odit voluptasLorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt maiores delectus odit laborum labore. Optio dolore adipisci, accusantium ex ullam possimus temporibus recusandae nam, quasi, officia dolores. Incidunt, iure repudiandae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius est illum vel, labore sint itaque quas soluta debitis facere qui tenetur impedit consequuntur architecto tempora optio vero distinctio. Modi, ex. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores illo maxime ea repudiandae, dignissimos beatae ad aspernatur officiis eum nam eaque perferendis atque saepe ut quas. Perspiciatis fugit odit voluptasLorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt maiores delectus odit laborum labore. Optio dolore adipisci, accusantium ex ullam possimus temporibus recusandae nam, quasi, officia dolores. Incidunt, iure repudiandae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius est illum vel, labore sint itaque quas soluta debitis facere qui tenetur impedit consequuntur architecto tempora optio vero distinctio. Modi, ex. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores illo maxime ea repudiandae, dignissimos beatae ad aspernatur officiis eum nam eaque perferendis atque saepe ut quas. Perspiciatis fugit odit voluptas.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt maiores delectus odit laborum labore. Optio dolore adipisci, accusantium ex ullam possimus temporibus recusandae nam, quasi, officia dolores. Incidunt, iure repudiandae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius est illum vel, labore sint itaque quas soluta debitis facere qui tenetur impedit consequuntur architecto tempora optio vero distinctio. Modi, ex. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores illo maxime ea repudiandae, dignissimos beatae ad aspernatur officiis eum nam eaque perferendis atque saepe ut quas. Perspiciatis fugit odit voluptasLorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt maiores delectus odit laborum labore. Optio dolore adipisci, accusantium ex ullam possimus temporibus recusandae nam, quasi, officia dolores. Incidunt, iure repudiandae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius est illum vel, labore sint itaque quas soluta debitis facere qui tenetur impedit consequuntur architecto tempora optio vero distinctio. Modi, ex. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores illo maxime ea repudiandae, dignissimos beatae ad aspernatur officiis eum nam eaque perferendis atque saepe ut quas. Perspiciatis fugit odit voluptas</p>
+
+    <h2 id="SALTO">Voltamos !!!</h2>
+    <p>Quanto texto em, hehehe mas voltando cada título acima possui uma tag associada podemos ao usar a tag &lt;a&gt; acessar como se fosse um menu. 
+        <ol>
+            <li><a href='#Parâmetros'>Parâmetros</a></li>
+            <li><a href='#Exemplo'>Exemplo prático:</a></li>
+            <li><a href='#Link_para_site'>Link para outro site</a></li>
+            <li><a href='#Link_para_ancora'>Link para uma ancora</a></li>
+            <li><a href='#ipsum 1'>Lorem, ipsum 1</a></li>
+            <li><a href='#ipsum 2'>Lorem, ipsum 2</a></li>
+        </ol>
+
+        Olhando para o código fonte foi usado tag de lista que serão explicadas na próxima aula, por hora foque na sintaxe da tag interna &lt;a&gt; em quem usamos href='#id_de_referencia' e eis uma breve introdução ao parametro id; imagine que você precisa de direção e vê um policia muito bonzinho , caso pedisse para ir para <strong>Parâmetros</strong> o policial iria primeiro consultar a IDentificação do lugar para qual você deseja ir e para isso que o id funciona, no lugar (tag) desejado incluimos id="lugar_identificado" e no link da tag &lt;a href='#lugar_identificado'&gt;
+    </p>
+    <p><a></a></p>
 </body>
