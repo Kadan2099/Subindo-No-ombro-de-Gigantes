@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quinto passo</title>
+</head>
+<body>
+<h1>Listas</h1>
+
+<p>Existm dois tipos de listas ordenadas (ordered lists) e não ordenadas (unordered lists) já usamos listas antes se tiver prestado atenção então vamos elaborar isso aqui. <br>
+Um ponto de atenção é que a lista sempre usa duas tags uma externa "pai" (&lt;ol&gt; ou &lt;ul&gt) e outra "filha" &lt;li&gt; para delimitar item a item (vide código fonte).</p>
+
+<h2>Listas ordenadas</h2>
+
+<p>Como mencionado no resumo inicial, podemos usar a lista ordenada com a tag &lt;ol&gt; conforme exemplo abaixo; <br>
+<ol>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+    <li>Item 5</li>
+</ol>
+Lista ordenadas possuem o parametro type (&lt;ol type="1|a|A|i|I"&gt;) podendo assumir os seguintes valores:<br>
+
+<ul>
+    <li>1 Valor Padrão com números decimais.</li>
+    <li>a Alfabético letras minusculas.</li>
+    <li>A Alfabético letras maiusculas.</li>
+    <li>i Números romanos letras minusculas.</li>
+    <li>I Números romanos letras maiusculas.</li>
+</ul>
+ <p>Por se tratar de ordenação os números podem ser manupulados manualmente incluindo a lista toda ou um item em especifico das seguintes formas:<br>
+Detro da tag &lt;ol&gt; incluimos o parametro start &lt;ol start="5" &gt iniciando a lista com o valor parametrizado e dentro da tag &lt;ol value="4" &gt com value incluimos o valor especificado ao item, qualquer item sequente seguirá a ordem apartir do último valor, exemplo:
+<ol start="5">
+    <li>Começo em 5</li>
+    <li>Subo para 6</li>
+    <li value="4">Vou para 4</li>
+    <li>subo para 5 </li>
+    <li>De novo 6</li>
+</ol> 
+Por último podemos reverter a ordem incluindo reversed dentro da tag &lt;ol&gt; , exemplo:
+<ol reversed start="6">
+    <li>Começo em 6</li>
+    <li>Desço para 5</li>
+    <li value="7">Vou para 7</li>
+    <li>Desço para 6</li>
+    <li>De novo 5</li>
+</ol> 
+</p>
+
+</p>
+<p><a href="0004.html">Aula anterior</a> &lt; - <a href="Menu.html">Menu das aulas</a> - &gt;
+    <a href="https://www.youtube.com/watch?v=p6RDN4vTci4&list=RDp6RDN4vTci4&start_radio=1" rel="noopener noreferrer">Próxima aula</a>
+</p>
+</p>
+</body>
+</html>
