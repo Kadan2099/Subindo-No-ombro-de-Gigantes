@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Template - Manual Operacional</title>
+<style>
+:root{
+    --primary:#0B3D91;
+    --secondary:#1565C0;
+    --accent:#42A5F5;
+    --light:#EAF4FF;
+    --border:#C8DDF5;
+    --text:#263238;
+    --gray:#607D8B;
+    --white:#FFFFFF;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    background:#EDF5FC;
+    color:var(--text);
+    line-height:1.7;
+}
+.container{
+    width:1100px;
+    max-width:95%;
+    margin:40px auto;
+    background:var(--white);
+    box-shadow:0 10px 30px rgba(0,0,0,.10);
+    border-radius:10px;
+    overflow:hidden;
+}
+
+header{
+    background:linear-gradient(135deg,var(--primary),var(--secondary));
+    color:white;
+    padding:45px;
+}
+
+header h1{
+    font-size:34px;
+    letter-spacing:1px;
+}
+
+header p{
+    margin-top:10px;
+    opacity:.9;
+}
+
+.info{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.info td{
+    padding:12px;
+    border:1px solid var(--border);
+}
+
+.info td:first-child{
+    width:220px;
+    font-weight:bold;
+    background:var(--light);
+}
+
+section{
+    padding:35px 45px;
+    border-bottom:1px solid #E4EEF8;
+}
+
+section:last-child{
+    border-bottom:none;
+}
+
+h2{
+    color:var(--primary);
+    margin-bottom:18px;
+    border-left:6px solid var(--accent);
+    padding-left:12px;
+}
+
+h3{
+    margin-top:25px;
+    margin-bottom:12px;
+    color:var(--secondary);
+}
+
+p{
+    margin-bottom:15px;
+}
+
+ul,ol{
+    margin-left:25px;
+    margin-bottom:20px;
+}
+
+li{
+    margin-bottom:8px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:15px;
+}
+
+th{
+    background:var(--secondary);
+    color:white;
+    padding:12px;
+    text-align:left;
+}
+
+td{
+    border:1px solid var(--border);
+    padding:12px;
+}
+
+blockquote{
+    background:var(--light);
+    border-left:6px solid var(--accent);
+    padding:20px;
+    color:#2F4858;
+    font-style:italic;
+}
+
+.placeholder{
+    background:#F7FBFF;
+    border:2px dashed var(--accent);
+    border-radius:8px;
+    padding:18px;
+    color:var(--gray);
+    margin-top:15px;
+}
+
+figure{
+    margin:30px auto;
+    text-align:center;
+}
+
+figure img{
+    width:100%;
+    max-width:850px;
+    border:1px solid var(--border);
+    border-radius:8px;
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+}
+
+figcaption{
+    margin-top:12px;
+    color:var(--gray);
+    font-style:italic;
+}
+
+.flow{
+    border-left:4px solid var(--secondary);
+    margin:20px 0;
+    padding-left:25px;
+}
+
+.flow div{
+    margin:12px 0;
+}
+
+.code{
+    font-family:Consolas, monospace;
+    background:#F1F7FD;
+    padding:15px;
+    border-radius:6px;
+    border-left:5px solid var(--accent);
+}
+
+footer{
+    background:#F7FBFF;
+    padding:25px;
+    text-align:center;
+    color:var(--gray);
+    font-size:.9em;
+}
+
+hr{
+    margin:25px 0;
+    border:none;
+    border-top:1px solid #DCE8F5;
+}
+
+.badge{
+    display:inline-block;
+    background:var(--secondary);
+    color:white;
+    padding:5px 10px;
+    border-radius:4px;
+    font-size:.85em;
+    margin-bottom:10px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+
+<h1>MANUAL OPERACIONAL</h1>
+
+<p>Modelo para documentação de procedimentos operacionais.</p>
+
+</header>
+
+<section>
+
+<h2>1. Informações Gerais</h2>
+
+<table class="info">
+
+<tr>
+<td>Título do Processo</td>
+<td><!-- INSERIR TÍTULO --></td>
+</tr>
+
+<tr>
+<td>Versão</td>
+<td>INSERIR VERSÃO</td>
+</tr>
+
+<tr>
+<td>Data</td>
+<td>INSERIR DATA</td>
+</tr>
+
+<tr>
+<td>Elaborador</td>
+<td>INSERIR RESPONSÁVEL</td>
+</tr>
+
+</table>
+
+</section>
+
+<section>
+
+<h2>2. Objetivo</h2>
+
+<p>
+
+
+
+</p>
+
+</section>
+
+<section>
+
+<h2>3. Escopo</h2>
+
+<ul>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+
+</section>
+
+<section>
+
+<h2>4. Responsabilidades</h2>
+
+<table>
+
+<tr>
+<th>Função</th>
+<th>Responsabilidade</th>
+</tr>
+
+<tr>
+<td><!-- Função --></td>
+<td><!-- Responsabilidade --></td>
+</tr>
+
+<tr>
+<td><!-- Função --></td>
+<td><!-- Responsabilidade --></td>
+</tr>
+
+</table>
+
+</section>
+
+<section>
+
+<h2>5. Materiais, Equipamentos e Sistemas</h2>
+
+<h3>Materiais</h3>
+
+<ul>
+<li><!-- Inserir --></li>
+<li><!-- Inserir --></li>
+</ul>
+
+<h3>Equipamentos</h3>
+
+<ul>
+<li><!-- Inserir --></li>
+<li><!-- Inserir --></li>
+</ul>
+
+<h3>Sistemas</h3>
+
+<ul>
+<li><!-- Inserir --></li>
+<li><!-- Inserir --></li>
+</ul>
+
+</section>
+
+<section>
+
+<h2>6. Procedimento Operacional</h2>
+
+<div class="badge">Etapa 1</div>
+
+<h3>Preparação</h3>
+
+<p><!-- Inserir descrição --></p>
+
+<ol>
+
+<li><!-- Passo --></li>
+<li><!-- Passo --></li>
+<li><!-- Passo --></li>
+
+</ol>
+
+<hr>
+
+<div class="badge">Etapa 2</div>
+
+<h3>Execução</h3>
+
+<ol>
+
+<li><!-- Passo --></li>
+<li><!-- Passo --></li>
+<li><!-- Passo --></li>
+<li><!-- Passo --></li>
+
+</ol>
+
+<hr>
+
+<div class="badge">Etapa 3</div>
+
+<h3>Finalização</h3>
+
+<ol>
+
+<li><!-- Passo --></li>
+<li><!-- Passo --></li>
+
+</ol>
+
+</section>
+
+<section>
+
+<h2>7. Fluxo do Processo</h2>
+
+<div class="flow">
+
+<div>► Início</div>
+<div>↓</div>
+<div><!-- Inserir etapa --></div>
+<div>↓</div>
+<div><!-- Inserir etapa --></div>
+<div>↓</div>
+<div><!-- Inserir etapa --></div>
+<div>↓</div>
+<div>Fim</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>8. Requisitos de Segurança</h2>
+
+<ul>
+
+<li><!-- Inserir requisito --></li>
+<li><!-- Inserir requisito --></li>
+<li><!-- Inserir requisito --></li>
+
+</ul>
+
+</section>
+
+<section>
+
+<h2>9. Indicadores de Desempenho</h2>
+
+<table>
+
+<tr>
+
+<th>Indicador</th>
+<th>Meta</th>
+<th>Periodicidade</th>
+
+</tr>
+
+<tr>
+
+<td><!-- Indicador --></td>
+<td><!-- Meta --></td>
+<td><!-- Frequência --></td>
+
+</tr>
+
+<tr>
+
+<td><!-- Indicador --></td>
+<td><!-- Meta --></td>
+<td><!-- Frequência --></td>
+
+</tr>
+
+</table>
+
+</section>
+
+<section>
+
+<h2>10. Não Conformidades</h2>
+
+<blockquote>
+
+<!--
+Inserir procedimento para tratamento de não conformidades.
+-->
+
+</blockquote>
+
+</section>
+
+<section>
+
+<h2>11. Registros</h2>
+
+<ul>
+
+<li><!-- Documento --></li>
+<li><!-- Documento --></li>
+<li><!-- Documento --></li>
+
+</ul>
+
+</section>
+
+<section>
+
+<h2>12. Documentos Relacionados</h2>
+
+<ul>
+
+<li><!-- Documento --></li>
+<li><!-- Documento --></li>
+<li><!-- Documento --></li>
+
+</ul>
+
+</section>
+
+<section>
+
+<h2>13. Controle de Revisões</h2>
+
+<table>
+
+<tr>
+
+<th>Versão</th>
+<th>Data</th>
+<th>Descrição</th>
+<th>Responsável</th>
+
+</tr>
+
+<tr>
+
+<td><!-- Versão --></td>
+<td><!-- Data --></td>
+<td><!-- Alteração --></td>
+<td><!-- Responsável --></td>
+
+</tr>
+
+</table>
+
+</section>
+
+<section>
+
+<h2>Anexos</h2>
+
+<div class="placeholder">
+
+<strong>Área destinada para anexos, capturas de tela, diagramas, fotografias ou documentos auxiliares.</strong>
+
+</div>
+
+<!-- EXEMPLO DE IMAGEM -->
+
+<figure>
+
+<img src="images/exemplo.png" alt="Descrição da imagem">
+
+<figcaption>
+
+Figura 1 — Inserir aqui uma captura de tela, fotografia ou diagrama referente ao procedimento descrito nesta etapa.
+
+</figcaption>
+
+</figure>
+
+<!-- OUTRO EXEMPLO -->
+
+<figure>
+
+<img src="images/fluxograma.png" alt="Fluxograma">
+
+<figcaption>
+
+Figura 2 — Fluxograma do processo operacional.
+
+</figcaption>
+
+</figure>
+
+<!--
+REPETIR O BLOCO <figure> QUANTAS VEZES FOREM NECESSÁRIAS.
+-->
+
+</section>
+
+<footer>
+
+Manual Operacional • Template HTML Estático • Versão Base
+
+</footer>
+
+</div>
+
+</body>
+</html>
